@@ -73,7 +73,7 @@ Follow these guidelines to perform thorough and standardized testing:
 
 1. **Setup**:
    - Use Ethers.js Vx.x.x.
-   - Test TEN network compatibility.
+   - Add TEN network to your wallet or config by visiting [TEN Gateway](https://testnet.ten.xyz/).
    - Set up a suitable environment (Node.js, Hardhat, or browser) for the feature you're testing.
 
 2. **Test Cases**:

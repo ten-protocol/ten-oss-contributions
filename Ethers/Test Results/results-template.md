@@ -6,7 +6,7 @@
 
 ## Test Setup
 - **Ethers.js Version**: v6.0.0
-- **Network**: Mainnet/Testnet/Local Development
+- **Network**: TEN Testnet
 - **Test Environment**: Node.js v16, Hardhat, etc.
 - **Additional Setup Details**: Testing against Mainnet and local Hardhat instance.
 

@@ -72,7 +72,7 @@ Use this [checklist](#feature-testing-checklist) to track testing progress. Cont
 Follow these guidelines to perform thorough and standardized testing:
 
 1. **Setup**:
-   - Use Ethers.js v6.x.x.
+   - Use Ethers.js Vx.x.x.
    - Test TEN network compatibility.
    - Set up a suitable environment (Node.js, Hardhat, or browser) for the feature you're testing.
 
@@ -83,35 +83,6 @@ Follow these guidelines to perform thorough and standardized testing:
 3. **Documenting Results**:
    - Use the provided test result template below for consistency.
    - Include logs, screenshots, and other helpful artifacts where necessary.
-
----
-
-## Test Results Template (`results-template.md`)
-
-```markdown
-# Test Results Submission Template
-
-## Contributor Information
-- **GitHub Username**: [Your Username]
-- **Feature Tested**: [Feature Name, e.g., `BigInt.add`]
-
-## Test Setup
-- **Ethers.js Version**: v6.x.x
-- **Network**: [Testnet Development]
-- **Test Environment**: [Node.js, Browser, Hardhat, etc.]
-
-## Test Cases
-| Test Case Description                          | Result  | Notes |
-|------------------------------------------------|---------|-------|
-| Test Case 1: [Description]                     | ✅ Pass |       |
-| Test Case 2: [Description]                     | ❌ Fail | [Include logs or details about the failure] |
-
-## Additional Feedback
-- [Any additional comments or suggestions]
-
-## Attachments
-- [Any screenshots, logs, or code snippets]
-```
 
 ---
 
@@ -136,24 +107,3 @@ Follow these guidelines to perform thorough and standardized testing:
 
 - If you encounter any issues during testing, please submit a GitHub issue.
 - Ensure the issue includes detailed steps to reproduce, logs, and relevant data for faster triage.
-
----
-
-## General Contributor Feedback (`contributor-feedback.md`)
-
-We encourage feedback from all contributors to help improve the repository and the testing process.
-
-```markdown
-# Contributor Feedback
-
-## How to Submit Feedback
-- Add your feedback below or open an issue for detailed discussions.
-
----
-
-### Feedback from Contributors
-
-- **Contributor**: [@GitHubUsername]
-- **Feedback**: 
-  > [Your thoughts, suggestions, or challenges faced while testing]
-```

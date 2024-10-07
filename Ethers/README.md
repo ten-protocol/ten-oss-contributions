@@ -53,16 +53,17 @@ Welcome to the Ethers.js testing guidelines for TEN! This guide helps contributo
 
 Use this [checklist](#feature-testing-checklist) to track testing progress. Contributors can claim any feature by adding their GitHub username and marking it "🔄 In Progress" via a pull request.
 
-| Feature                                  | Status          | Contributor          | PR Link |
-|------------------------------------------|-----------------|----------------------|---------|
-| **BigInt.add**                           | ❌ Pending      |                      |         |
-| **Contract.deploy**                      | 🔄 In Progress  |                      |         |
-| **BrowserProvider**                      | ✔️ Completed     |                      |         |
+| Feature                                  | Status          | Contributor          | PR Link | Fixes (if any)    |
+|------------------------------------------|-----------------|----------------------|---------|------------------|
+| **BigInt.add**                           | ❌ Pending      |                      |         |                  |
+| **Contract.deploy**                      | 🔄 In Progress  |                      |         |                  |
+| **BrowserProvider**                      | ✔️ Completed     |                      |         |                  |
 
 **Key**:
 - **❌ Pending**: The feature is not yet claimed for testing.
 - **🔄 In Progress**: The feature is being tested by a contributor.
 - **✔️ Completed**: Testing is complete, and results have been submitted.
+- **✔️ Completed with Fix**: Testing was completed, and a bug was found and fixed.
 
 ---
 

@@ -5,10 +5,10 @@
 - **Feature Tested**: BigInt.add
 
 ## Test Setup
-- **Ethers.js Version**: v6.0.0
+- **Ethers.js Version**: vX.0.0
 - **Network**: TEN Testnet
 - **Test Environment**: Node.js v16, Hardhat, etc.
-- **Additional Setup Details**: Testing against Mainnet and local Hardhat instance.
+- **Additional Setup Details**: Testing against Testnet and local Hardhat instance.
 
 ## Test Cases
 

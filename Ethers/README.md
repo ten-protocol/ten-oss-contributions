@@ -52,7 +52,7 @@ Welcome to the Ethers.js testing guidelines for TEN! This guide helps contributo
 
 ## Feature Testing Checklist
 
-Use this [checklist](#feature-testing-checklist) to track testing progress. Contributors can claim any feature by adding their GitHub username and marking it "🔄 In Progress" via a pull request.
+Use this comprehensive [checklist](#Ethers/test-checklist.md) to track testing progress. Contributors can claim any feature by adding their GitHub username and marking it "🔄 In Progress" via a pull request.
 
 | Feature                                  | Status          | Contributor          | PR Link | Fixes (if any)    |
 |------------------------------------------|-----------------|----------------------|---------|------------------|

@@ -12,8 +12,7 @@ Welcome to the Ethers.js testing guidelines for TEN! This guide helps contributo
 2. [Submitting Test Results and Fixes](#submitting-test-results-and-fixes)
 3. [Feature Testing Checklist](#feature-testing-checklist)
 4. [Testing Guidelines](#testing-guidelines)
-5. [Maintaining Test Records](#maintaining-test-records)
-6. [Bug Reporting](#bug-reporting)
+5. [Bug Reporting](#bug-reporting)
 
 ---
 
@@ -84,23 +83,6 @@ Follow these guidelines to perform thorough and standardized testing:
 3. **Documenting Results**:
    - Use the provided test result template below for consistency.
    - Include logs, screenshots, and other helpful artifacts where necessary.
-
----
-
-## Maintaining Test Records
-
-1. **Track Progress**:
-   - The **Master Checklist** in the repository tracks the progress of all tests. Contributors claim features and submit their results, which are then merged.
-
-2. **Standardize Results**:
-   - All test results are stored in the `/test-results/` folder, each file named `username-feature-tested.md`.
-
-3. **Avoid Duplicate Testing**:
-   - Check the checklist and ensure no one else is testing the same feature.
-   - If a feature is marked "🔄 In Progress" for over a week without updates, other contributors can claim it after notifying the previous tester.
-
-4. **Labels**:
-   - PRs related to any events, campaigns, or hackathons can be tagged with labels such as `hacktoberfest` or `ETH-XYZ-Hackathon`.
 
 ---
 

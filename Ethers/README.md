@@ -31,20 +31,21 @@ Welcome to the Ethers.js testing guidelines for TEN! This guide helps contributo
 
 ---
 
-## Submitting Test Results
+## Submitting Test Results and Fixes
 
 1. **Conduct Your Tests**:
    - Follow the [Testing Guidelines](#testing-guidelines) to ensure you thoroughly test each feature.
 
 2. **Document Your Results**:
    - Use the `results-template.md` format to document your test results.
+   - Include any **fixes** in the same document by adding a "Fixes" section with a link to your code repository or the PR where the fix is implemented.
 
-3. **Submit Test Results via PR**:
-   - After testing, submit a PR with your test results in the `/testing/test-results/` folder.
-   - Name your test result file as `username-feature-tested.md` (e.g., `alice-BigInt.add.md`).
+3. **Submit via PR**:
+   - After testing, submit a PR with your test results in the `/testing/test-results/` folder, naming the file as `username-feature-tested.md` (e.g., `alice-BigInt.add.md`).
+   - If a **fix** was made, link to the fix in the same PR or submit a separate PR for major fixes with a reference to the test result.
 
 4. **Update the Checklist**:
-   - In your PR, mark the feature as **"✔️ Completed"** in the [Feature Testing Checklist](#feature-testing-checklist).
+   - In your PR, mark the feature as **"✔️ Completed"** or **"✔️ Completed with Fix"** in the [Feature Testing Checklist](#feature-testing-checklist).
    - After review and merging, the feature will be officially marked as completed.
 
 ---

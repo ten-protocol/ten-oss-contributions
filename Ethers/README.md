@@ -2,14 +2,14 @@
 
 ## Introduction
 
-Welcome to the Ethers.js testing guidelines for TEN! This guide helps contributors test Ethers.js features, ensuring all core functionality works properly. We encourage all contributions—whether it's testing core features or specific updates in V6. Use this guide to claim features, submit test results, and collaborate with other contributors.
+Welcome to the Ethers.js testing guidelines for TEN! This guide helps contributors test Ethers.js features, ensuring all core functionality works properly. We encourage all contributions—whether it's testing core features, specific updates in V6, or submitting fixes. Use this guide to claim features, submit test results, suggest fixes, and collaborate with other contributors.
 
 ---
 
 ## Table of Contents
 
 1. [Test Claiming Process](#test-claiming-process)
-2. [Submitting Test Results](#submitting-test-results)
+2. [Submitting Test Results and Fixes](#submitting-test-results-and-fixes)
 3. [Feature Testing Checklist](#feature-testing-checklist)
 4. [Testing Guidelines](#testing-guidelines)
 5. [Maintaining Test Records](#maintaining-test-records)

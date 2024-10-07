@@ -1,8 +1,8 @@
-# Ethers.js V6 Testing
+# Ethers.js Testing
 
 ## Introduction
 
-Welcome to the Ethers.js V6 testing guidelines for TEN! This guide helps contributors test Ethers.js features, ensuring all core functionality works properly. We encourage all contributions—whether it's testing core features or specific updates in V6. Use this guide to claim features, submit test results, and collaborate with other contributors.
+Welcome to the Ethers.js testing guidelines for TEN! This guide helps contributors test Ethers.js features, ensuring all core functionality works properly. We encourage all contributions—whether it's testing core features or specific updates in V6. Use this guide to claim features, submit test results, and collaborate with other contributors.
 
 ---
 

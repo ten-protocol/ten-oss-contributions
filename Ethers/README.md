@@ -14,7 +14,6 @@ Welcome to the Ethers.js testing guidelines for TEN! This guide helps contributo
 4. [Testing Guidelines](#testing-guidelines)
 5. [Maintaining Test Records](#maintaining-test-records)
 6. [Bug Reporting](#bug-reporting)
-7. [General Contributor Feedback](#general-contributor-feedback)
 
 ---
 

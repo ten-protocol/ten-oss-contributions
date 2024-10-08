@@ -136,9 +136,7 @@
 | `hashMessage`                     | ❌ Pending  |                      |                      |
 | `sign`                            | ❌ Pending  |                      |                      |
 | `recover`                         | ❌ Pending  |                      |                      |
-| `encrypt`
-
-                         | ❌ Pending  |                      |                      |
+| `encrypt`                         | ❌ Pending  |                      |                      |
 | `decrypt`                         | ❌ Pending  |                      |                      |
 | `wallet.create`                   | ❌ Pending  |                      |                      |
 | `wallet.add`                      | ❌ Pending  |                      |                      |

@@ -18,17 +18,17 @@ contract CrapsCasino {
     /// @param roll The result of the roll
     /// @param win Whether the player won
     /// @param payout The amount paid out (0 if loss)
-    event private RollOutcome(address indexed player, uint256 indexed roll, bool indexed win, uint256 payout);
+    event RollOutcome(address indexed player, uint256 indexed roll, bool indexed win, uint256 payout);
 
     /// @notice Emitted when a player deposits funds
     /// @param player The address of the player
     /// @param amount The amount deposited
-    event private Deposit(address indexed player, uint256 amount);
+    event Deposit(address indexed player, uint256 amount);
 
     /// @notice Emitted when a player withdraws funds
     /// @param player The address of the player
     /// @param amount The amount withdrawn
-    event private Withdrawal(address indexed player, uint256 amount);
+    event Withdrawal(address indexed player, uint256 amount);
 
     /// @notice Sets up the casino with initial bet limits
     /// @param _minBet The minimum allowed bet

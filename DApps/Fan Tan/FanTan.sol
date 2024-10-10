@@ -26,23 +26,23 @@ contract FanTan {
     /// @param player The address of the player
     /// @param betType The type of bet placed (1, 2, 3, or 4)
     /// @param amount The amount bet
-    event private BetPlaced(address indexed player, uint8 indexed betType, uint256 amount);
+    event BetPlaced(address indexed player, uint8 indexed betType, uint256 amount);
 
     /// @notice Emitted when a game is resolved
     /// @param player The address of the player
     /// @param result The winning number (1, 2, 3, or 4)
     /// @param winAmount The amount won (0 if loss)
-    event private GameResolved(address indexed player, uint8 result, uint256 winAmount);
+    event GameResolved(address indexed player, uint8 result, uint256 winAmount);
 
     /// @notice Emitted when a player deposits funds
     /// @param player The address of the player
     /// @param amount The amount deposited
-    event private Deposit(address indexed player, uint256 amount);
+    event Deposit(address indexed player, uint256 amount);
 
     /// @notice Emitted when a player withdraws funds
     /// @param player The address of the player
     /// @param amount The amount withdrawn
-    event private Withdrawal(address indexed player, uint256 amount);
+    event Withdrawal(address indexed player, uint256 amount);
 
     constructor(uint256 _minBet, uint256 _maxBet) {
         owner = msg.sender;

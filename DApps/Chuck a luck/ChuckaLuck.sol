@@ -26,23 +26,23 @@ contract ChuckALuck {
     /// @param betType The type of bet placed
     /// @param number The number bet on (if applicable)
     /// @param amount The amount bet
-    event private BetPlaced(address indexed player, BetType indexed betType, uint8 number, uint256 amount);
+    event BetPlaced(address indexed player, BetType indexed betType, uint8 number, uint256 amount);
 
     /// @notice Emitted when a game is resolved
     /// @param player The address of the player
     /// @param dice The results of the dice rolls
     /// @param winAmount The amount won (0 if loss)
-    event private GameResolved(address indexed player, uint8[3] dice, uint256 winAmount);
+    event GameResolved(address indexed player, uint8[3] dice, uint256 winAmount);
 
     /// @notice Emitted when a player deposits funds
     /// @param player The address of the player
     /// @param amount The amount deposited
-    event private Deposit(address indexed player, uint256 amount);
+    event Deposit(address indexed player, uint256 amount);
 
     /// @notice Emitted when a player withdraws funds
     /// @param player The address of the player
     /// @param amount The amount withdrawn
-    event private Withdrawal(address indexed player, uint256 amount);
+    event Withdrawal(address indexed player, uint256 amount);
 
     /// @notice Sets up the Chuck-a-Luck game with initial bet limits
     /// @param _minBet The minimum allowed bet

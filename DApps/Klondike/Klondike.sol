@@ -32,9 +32,9 @@ contract KlondikeSolitaire {
         bool completed;
     }
 
-    event private GameStarted(address indexed player);
-    event private MoveMade(address indexed player, uint256 moveType);
-    event private GameCompleted(address indexed player, uint256 moves, uint256 timeTaken);
+    event GameStarted(address indexed player);
+    event MoveMade(address indexed player, uint256 moveType);
+    event GameCompleted(address indexed player, uint256 moves, uint256 timeTaken);
 
     constructor(uint256 _gameCost) {
         owner = msg.sender;

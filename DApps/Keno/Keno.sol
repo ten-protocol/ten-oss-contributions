@@ -33,7 +33,7 @@ contract KenoGame {
     /// @param ticketId The ID of the ticket
     /// @param numbers The numbers chosen by the player
     /// @param betAmount The amount bet on this ticket
-    event private TicketPurchased(address indexed player, uint256 indexed ticketId, uint8[] numbers, uint256 betAmount);
+    event TicketPurchased(address indexed player, uint256 indexed ticketId, uint8[] numbers, uint256 betAmount);
 
     /// @notice Emitted when a Keno game is resolved
     /// @param player The address of the player
@@ -41,17 +41,17 @@ contract KenoGame {
     /// @param drawnNumbers The numbers drawn in the game
     /// @param matches The number of matches
     /// @param payout The amount paid out
-    event private GameResolved(address indexed player, uint256 indexed ticketId, uint8[] drawnNumbers, uint8 matches, uint256 payout);
+    event GameResolved(address indexed player, uint256 indexed ticketId, uint8[] drawnNumbers, uint8 matches, uint256 payout);
 
     /// @notice Emitted when a player deposits funds
     /// @param player The address of the player
     /// @param amount The amount deposited
-    event private Deposit(address indexed player, uint256 amount);
+    event Deposit(address indexed player, uint256 amount);
 
     /// @notice Emitted when a player withdraws funds
     /// @param player The address of the player
     /// @param amount The amount withdrawn
-    event private Withdrawal(address indexed player, uint256 amount);
+    event Withdrawal(address indexed player, uint256 amount);
 
     /// @notice Sets up the Keno game with initial bet limits
     /// @param _minBet The minimum allowed bet
